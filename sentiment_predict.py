@@ -20,6 +20,6 @@ def predict_sentiment(text):
     return "Positive" if score > 0.5 else "Negative", score
 
 # Example usage
-text = "The movie was painfully slow and predictable. Halfway through, I was already bored."
+text = "Good visuals and music, overall good moviess."
 sentiment, score = predict_sentiment(text)
 print(f"Sentiment: {sentiment}, Score: {score:.4f}")
